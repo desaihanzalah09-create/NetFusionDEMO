@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Netfusion</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/jpeg" href="images/Logo 2.jpg">
+    <link rel="apple-touch-icon" href="images/Logo 2.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Glow Bar -->
+    <div class="top-announcement">
+        <p><i class="fa-solid fa-bolt text-cyan"></i> Special Offer: All AirPods at R1500 &bull; Express Delivery</p>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/Logo 1.jpg" alt="Netfusion" class="logo-img"><span class="logo-text">NETFUSION</span>
+            </a>
+
+            <!-- Mobile Navigation Toggle -->
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="shop.html" class="nav-link">Shop</a>
+                <a href="about.html" class="nav-link active">About Us</a>
+                <a href="reviews.html" class="nav-link">Reviews</a>
+                <a href="contact.html" class="nav-link">Contact & Order</a>
+                <a href="#" class="btn-whatsapp nav-cta" onclick="openWhatsAppGeneral()">
+                    <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="container section-padding">
+        <div class="about-grid">
+            <div class="about-image-wrap">
+                <img src="images/Apple Airpods Pro 3.jpg" alt="About Netfusion" class="about-img">
+            </div>
+            <div class="about-content">
+                <span class="badge">Who We Are</span>
+                <h2>About <span class="glow-text">Netfusion</span></h2>
+                <p>At Netfusion, our mission is simple: to make high-end Apple AirPods accessible, affordable, and seamless to order directly on WhatsApp.</p>
+                <p>We test and inspect every set of AirPods to ensure top audio fidelity, active noise cancellation, and battery longevity before dispatching.</p>
+
+                <div class="about-features">
+                    <div class="about-feature-item">
+                        <i class="fa-solid fa-circle-check text-cyan"></i>
+                        <div>
+                            <h4>Guaranteed Sound Quality</h4>
+                            <p>Crystal clear treble, balanced mids, and deep rich bass.</p>
+                        </div>
+                    </div>
+                    <div class="about-feature-item">
+                        <i class="fa-solid fa-circle-check text-cyan"></i>
+                        <div>
+                            <h4>Direct VIP Customer Support</h4>
+                            <p>Chat directly with our team on WhatsApp for fast responses and order tracking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="images/Logo 1.jpg" alt="Netfusion" class="logo-img"><span class="logo-text">NETFUSION</span>
+                </a>
+                <p>Your destination for high-performance Apple AirPods.</p>
+            </div>
+            <div class="footer-status">
+                <span class="online-indicator"></span> WhatsApp Support Online
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Netfusion. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Navigation Bar -->
+    <nav class="mobile-bottom-nav">
+        <a href="index.html" class="mobile-nav-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="shop.html" class="mobile-nav-item">
+            <i class="fa-solid fa-store"></i>
+            <span>Shop</span>
+        </a>
+        <a href="reviews.html" class="mobile-nav-item">
+            <i class="fa-solid fa-star"></i>
+            <span>Reviews</span>
+        </a>
+        <a href="contact.html" class="mobile-nav-item">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span>Order</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>

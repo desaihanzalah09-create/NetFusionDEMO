@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop AirPods | Netfusion</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/jpeg" href="images/Logo 2.jpg">
+    <link rel="apple-touch-icon" href="images/Logo 2.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Glow Bar -->
+    <div class="top-announcement">
+        <p><i class="fa-solid fa-bolt text-cyan"></i> Special Offer: All AirPods at R1500 &bull; Express Delivery</p>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/Logo 1.jpg" alt="Netfusion" class="logo-img"><span class="logo-text">NETFUSION</span>
+            </a>
+
+            <!-- Mobile Navigation Toggle -->
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="shop.html" class="nav-link active">Shop</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="reviews.html" class="nav-link">Reviews</a>
+                <a href="contact.html" class="nav-link">Contact & Order</a>
+                <a href="#" class="btn-whatsapp nav-cta" onclick="openWhatsAppGeneral()">
+                    <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Shop Section -->
+    <section class="container section-padding">
+        <div class="section-header text-center">
+            <span class="badge">Catalog</span>
+            <h2>Explore Our <span class="glow-text">AirPods Collection</span></h2>
+            <p>Select your preferred model below and tap 'Order on WhatsApp' to purchase directly.</p>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="grid grid-3" id="productGrid">
+            
+            <!-- Product 1: Apple Airpods Pro 2 -->
+            <div class="product-card">
+                <span class="product-tag">Best Seller</span>
+                <div class="product-img-box">
+                    <img src="images/Airpods Pro 2.jpg" alt="Apple Airpods Pro 2">
+                </div>
+                <div class="product-details">
+                    <h3>Apple Airpods Pro 2</h3>
+                    <p class="specs"><i class="fa-solid fa-check"></i> Active Noise Cancellation</p>
+                    <p class="specs"><i class="fa-solid fa-check"></i> MagSafe Wireless Charging</p>
+                    <div class="product-price-row">
+                        <span class="price">R1500</span>
+                        <span class="old-price">R3200</span>
+                    </div>
+                    <button class="btn btn-whatsapp-full" onclick="orderProduct('Apple Airpods Pro 2', 'R1500')">
+                        <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 2: Apple Airpods Pro 3 -->
+            <div class="product-card">
+                <span class="product-tag tag-purple">Popular</span>
+                <div class="product-img-box">
+                    <img src="images/Apple Airpods Pro 3.jpg" alt="Apple Airpods Pro 3">
+                </div>
+                <div class="product-details">
+                    <h3>Apple Airpods Pro 3</h3>
+                    <p class="specs"><i class="fa-solid fa-check"></i> Enhanced ANC & Adaptive Audio</p>
+                    <p class="specs"><i class="fa-solid fa-check"></i> Spatial Audio tracking</p>
+                    <div class="product-price-row">
+                        <span class="price">R1500</span>
+                        <span class="old-price">R3500</span>
+                    </div>
+                    <button class="btn btn-whatsapp-full" onclick="orderProduct('Apple Airpods Pro 3', 'R1500')">
+                        <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 3: Apple Airpods Generation 3 -->
+            <div class="product-card">
+                <div class="product-img-box">
+                    <img src="images/Apple Airpods Generation 3.jpg" alt="Apple Airpods Generation 3">
+                </div>
+                <div class="product-details">
+                    <h3>Apple Airpods Generation 3</h3>
+                    <p class="specs"><i class="fa-solid fa-check"></i> Personalized Spatial Audio</p>
+                    <p class="specs"><i class="fa-solid fa-check"></i> Sweat & Water Resistant</p>
+                    <div class="product-price-row">
+                        <span class="price">R1500</span>
+                        <span class="old-price">R2800</span>
+                    </div>
+                    <button class="btn btn-whatsapp-full" onclick="orderProduct('Apple Airpods Generation 3', 'R1500')">
+                        <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 4: Apple Airpods Generation 4 -->
+            <div class="product-card">
+                <span class="product-tag">New Arrival</span>
+                <div class="product-img-box">
+                    <img src="images/Apple Airpods Generation 4.jpg" alt="Apple Airpods Generation 4">
+                </div>
+                <div class="product-details">
+                    <h3>Apple Airpods Generation 4</h3>
+                    <p class="specs"><i class="fa-solid fa-check"></i> Next-Gen Chipset & Sound</p>
+                    <p class="specs"><i class="fa-solid fa-check"></i> USB-C Fast Charge Case</p>
+                    <div class="product-price-row">
+                        <span class="price">R1500</span>
+                        <span class="old-price">R3000</span>
+                    </div>
+                    <button class="btn btn-whatsapp-full" onclick="orderProduct('Apple Airpods Generation 4', 'R1500')">
+                        <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="images/Logo 1.jpg" alt="Netfusion" class="logo-img"><span class="logo-text">NETFUSION</span>
+                </a>
+                <p>Your destination for high-performance Apple AirPods.</p>
+            </div>
+            <div class="footer-status">
+                <span class="online-indicator"></span> WhatsApp Support Online
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Netfusion. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Navigation Bar -->
+    <nav class="mobile-bottom-nav">
+        <a href="index.html" class="mobile-nav-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="shop.html" class="mobile-nav-item active">
+            <i class="fa-solid fa-store"></i>
+            <span>Shop</span>
+        </a>
+        <a href="reviews.html" class="mobile-nav-item">
+            <i class="fa-solid fa-star"></i>
+            <span>Reviews</span>
+        </a>
+        <a href="contact.html" class="mobile-nav-item">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span>Order</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>

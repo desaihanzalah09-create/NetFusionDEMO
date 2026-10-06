@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netfusion | Premium Wireless AirPods</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/jpeg" href="images/Logo 2.jpg">
+    <link rel="apple-touch-icon" href="images/Logo 2.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Glow Bar -->
+    <div class="top-announcement">
+        <p><i class="fa-solid fa-bolt text-cyan"></i> Special Offer: All AirPods at R1500 &bull; Express Delivery</p>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/Logo 1.jpg" alt="Netfusion" class="logo-img"><span class="logo-text">NETFUSION</span>
+            </a>
+
+            <!-- Mobile Navigation Toggle -->
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="shop.html" class="nav-link">Shop</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="reviews.html" class="nav-link">Reviews</a>
+                <a href="contact.html" class="nav-link">Contact & Order</a>
+                <a href="#" class="btn-whatsapp nav-cta" onclick="openWhatsAppGeneral()">
+                    <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="badge"><i class="fa-solid fa-sparkles"></i> Exclusive Audio Deal</span>
+                <h1>Unmatched Sound.<br><span class="glow-text">Next-Gen Audio.</span></h1>
+                <p>Get premium sound quality, active noise cancellation, and seamless connectivity with Netfusion's AirPods range for only R1500.</p>
+                <div class="hero-buttons">
+                    <a href="shop.html" class="btn btn-primary">
+                        Explore Shop <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <button class="btn btn-outline" onclick="openWhatsAppGeneral()">
+                        <i class="fa-brands fa-whatsapp"></i> Instant WhatsApp Order
+                    </button>
+                </div>
+                <div class="trust-pills">
+                    <span><i class="fa-solid fa-shield-check text-cyan"></i> Quality Inspected</span>
+                    <span><i class="fa-solid fa-truck-fast text-cyan"></i> Fast Dispatch</span>
+                    <span><i class="fa-solid fa-headset text-cyan"></i> 24/7 Support</span>
+                </div>
+            </div>
+            <div class="hero-image-wrap">
+                <div class="glow-sphere"></div>
+                <img src="images/Airpods Pro 2.jpg" alt="Apple Airpods Pro 2" class="hero-img">
+                <div class="floating-badge">
+                    <i class="fa-solid fa-star text-cyan"></i>
+                    <div>
+                        <strong>4.9 / 5.0 Rating</strong>
+                        <p>Over 1,200+ Satisfied Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="container section-padding">
+        <div class="section-header text-center">
+            <h2>Why Buy From <span class="glow-text">Netfusion</span>?</h2>
+            <p>We deliver the ultimate wireless audio experience straight to your door.</p>
+        </div>
+        <div class="grid grid-3">
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-headphones-simple"></i></div>
+                <h3>Deep Bass & Spatial Audio</h3>
+                <p>Immerse yourself in rich, high-fidelity acoustics tuned for music, gaming, and calls.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-battery-full"></i></div>
+                <h3>All-Day Battery Life</h3>
+                <p>Up to 30 hours of total listening time with fast MagSafe & wireless charging capabilities.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <h3>Direct WhatsApp Orders</h3>
+                <p>No complicated checkouts. Instant order confirmation and human support via WhatsApp.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="images/Logo 1.jpg" alt="Netfusion" class="logo-img"><span class="logo-text">NETFUSION</span>
+                </a>
+                <p>Your destination for high-performance Apple AirPods.</p>
+            </div>
+            <div class="footer-status">
+                <span class="online-indicator"></span> WhatsApp Support Online
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Netfusion. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Navigation Bar -->
+    <nav class="mobile-bottom-nav">
+        <a href="index.html" class="mobile-nav-item active">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="shop.html" class="mobile-nav-item">
+            <i class="fa-solid fa-store"></i>
+            <span>Shop</span>
+        </a>
+        <a href="reviews.html" class="mobile-nav-item">
+            <i class="fa-solid fa-star"></i>
+            <span>Reviews</span>
+        </a>
+        <a href="contact.html" class="mobile-nav-item">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span>Order</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>

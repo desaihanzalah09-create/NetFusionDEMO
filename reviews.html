@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews | Netfusion</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/jpeg" href="images/Logo 2.jpg">
+    <link rel="apple-touch-icon" href="images/Logo 2.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Glow Bar -->
+    <div class="top-announcement">
+        <p><i class="fa-solid fa-bolt text-cyan"></i> Special Offer: All AirPods at R1500 &bull; Express Delivery</p>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/Logo 1.jpg" alt="Netfusion" class="logo-img"><span class="logo-text">NETFUSION</span>
+            </a>
+
+            <!-- Mobile Navigation Toggle -->
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="shop.html" class="nav-link">Shop</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="reviews.html" class="nav-link active">Reviews</a>
+                <a href="contact.html" class="nav-link">Contact & Order</a>
+                <a href="#" class="btn-whatsapp nav-cta" onclick="openWhatsAppGeneral()">
+                    <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Reviews Section -->
+    <section class="container section-padding">
+        <div class="section-header text-center">
+            <span class="badge">Testimonials</span>
+            <h2>What Our <span class="glow-text">Clients Say</span></h2>
+            <p>Read real feedback from our satisfied customers.</p>
+        </div>
+
+        <div class="grid grid-3">
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p>"Got the Apple Airpods Pro 2 for R1500! Sound quality and noise cancellation are top level. Delivered super fast."</p>
+                <div class="reviewer">
+                    <strong>Michael S.</strong>
+                    <span>Verified Buyer &bull; Airpods Pro 2</span>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p>"Ordered via WhatsApp, super fast response from Netfusion. Got my Airpods Generation 4 the next day."</p>
+                <div class="reviewer">
+                    <strong>Sarah L.</strong>
+                    <span>Verified Buyer &bull; Airpods Gen 4</span>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p>"Best R1500 spent! Battery life lasts me days during work calls and workouts. Netfusion is legit."</p>
+                <div class="reviewer">
+                    <strong>David K.</strong>
+                    <span>Verified Buyer &bull; Airpods Pro 3</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="images/Logo 1.jpg" alt="Netfusion" class="logo-img"><span class="logo-text">NETFUSION</span>
+                </a>
+                <p>Your destination for high-performance Apple AirPods.</p>
+            </div>
+            <div class="footer-status">
+                <span class="online-indicator"></span> WhatsApp Support Online
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Netfusion. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Navigation Bar -->
+    <nav class="mobile-bottom-nav">
+        <a href="index.html" class="mobile-nav-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="shop.html" class="mobile-nav-item">
+            <i class="fa-solid fa-store"></i>
+            <span>Shop</span>
+        </a>
+        <a href="reviews.html" class="mobile-nav-item active">
+            <i class="fa-solid fa-star"></i>
+            <span>Reviews</span>
+        </a>
+        <a href="contact.html" class="mobile-nav-item">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span>Order</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
