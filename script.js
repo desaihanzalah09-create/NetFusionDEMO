@@ -2,8 +2,8 @@
    NETFUSION CONFIGURATION & INTERACTION
    ========================================== */
 
-// 1. UPDATE YOUR WHATSAPP NUMBER HERE (With Country Code, e.g. 27123456789)
-const WHATSAPP_NUMBER = "27123456789"; 
+// 1. WhatsApp number in international format for wa.me links.
+const WHATSAPP_NUMBER = "27812521656";
 
 // Switch Page View Function
 function switchPage(pageId) {
